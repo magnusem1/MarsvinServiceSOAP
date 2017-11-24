@@ -26,6 +26,7 @@ namespace MarsvinServiceSOAP
 
         [OperationContract]
         void DeleteUser(User user);
+
     }
 
 }
