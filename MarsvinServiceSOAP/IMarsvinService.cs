@@ -11,6 +11,7 @@ namespace MarsvinServiceSOAP
     [ServiceContract]
     public interface IMarsvinService
     {
+
     }
 
 }
