@@ -11,7 +11,20 @@ namespace MarsvinServiceSOAP
     [ServiceContract]
     public interface IMarsvinService
     {
+        [OperationContract]
+        IList<User> GetAllUsers();
 
+        [OperationContract]
+        IList<User> GetUserByPhoneNo(int phoneno);
+
+        [OperationContract]
+        IList<User> GetUserByMail(string email);
+
+        [OperationContract]
+        int AddUser(User user);
+
+        [OperationContract]
+        void DeleteUser(User user);
     }
 
 }

@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="IMarsvinService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
