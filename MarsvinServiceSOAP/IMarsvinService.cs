@@ -14,6 +14,7 @@ namespace MarsvinServiceSOAP
         [OperationContract]
         IList<User> GetAllUsers();
 
+
         [OperationContract]
         IList<User> GetUserByPhoneNo(int phoneno);
 
